@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH tr '.' '\n' | wc -l
+echo $((‘echo $PATH | greg -o “:/” | wc -l’+l 1))
